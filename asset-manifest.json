@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/react-for-beginners-start/static/js/main.fa644e7e.js",
-    "index.html": "/react-for-beginners-start/index.html",
-    "main.fa644e7e.js.map": "/react-for-beginners-start/static/js/main.fa644e7e.js.map"
+    "main.js": "/jun0807/react-for-beginners-start.git/static/js/main.01fd3a73.js",
+    "index.html": "/jun0807/react-for-beginners-start.git/index.html",
+    "main.01fd3a73.js.map": "/jun0807/react-for-beginners-start.git/static/js/main.01fd3a73.js.map"
   },
   "entrypoints": [
-    "static/js/main.fa644e7e.js"
+    "static/js/main.01fd3a73.js"
   ]
 }
