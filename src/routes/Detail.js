@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import Movie from '../components/Movie';
 import { Link } from 'react-router-dom';
 
 function Detail() {
@@ -16,7 +15,7 @@ function Detail() {
   };
   useEffect(() => {
     getMovie();
-  }, [id]);
+  }, []);
   return (
     <div>
       {loading ? (
@@ -31,7 +30,6 @@ function Detail() {
           </h4>
           <h3>description: {movies.description_full}</h3>
           <p>If you want to see this movie.. Click this! </p>
-          <Link to={movies.url}>Go to movie</Link>
         </div>
       )}
     </div>
